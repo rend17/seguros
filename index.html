@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SEGUROS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form>
+		<table>
+			<tr><td colspan="4" align="center">Completa el formulario y cotiza al instante</td></tr>
+			<tr>
+				<td colspan="2">DATOS DE VEHÍCULO</td>
+				<td colspan="2">DATOS DE CONDUCTOR</td>
+			</tr>
+			<tr>
+				<td>marca</td>
+				<td><SELECT NAME="selCombo" SIZE=1> <OPTION VALUE="pagina 1">seleccione</OPTION></SELECT></td>
+				<td>edad</td>
+				<td><select name="selcombo"><option value="pagina 1">años</option></select></td>
+			</tr>	
+			<tr>
+				<td>año de fabricacion</td>
+				<td><select name="selcombo"><option value="pagina 1">2018-nuevo</option></select></td>
+				<td>celular</td>
+				<td><input type="text" name="celular"></td>
+			</tr>
+			<tr>
+				<td>modelo</td>
+				<td><select name="selcombo"><option value="pagina 1">selecciona el modelo</option></select></td>
+				<td>e-mail</td>
+				<td><input type="e-mail" name="correo"></td>
+			</tr>
+			<tr>
+				<td>uso</td>
+				<td><select name="selcombo"><option value="pagina 1">seleccione</option></select></td>
+				<td>region</td>
+				<td>
+					<input type="radio" id="contactChoice1" name="contact" value="email">
+    				<label for="contactChoice1">Lima</label>
+    				<input type="radio" id="contactChoice2" name="contact" value="Provincia">
+    				<label for="contactChoice1">Provincia</label>
+    			</td>
+			</tr>
+			<tr>
+				<td>valor de mercado</td>
+				<td><input type="text" name="precio"></td>
+				<td colspan="2" rowspan="2">
+					<input type="checkbox" id="recibir email" name="recibir" value="recibir">
+    				<label for="recibir">Quiero recibir información por e-mail </label>
+    			</td>
+			</tr>
+			<tr>
+				<td>convertido a gas</td>
+				<td>
+					<input type="radio" id="si" name="si" value="si">
+    				<label for="si">SI</label>
+    				<input type="radio" id="no" name="no" value="no">
+    				<label for="no">NO</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4" align="center"><input type="submit" name="comprar" value="Encuentra tu seguro vehicular"></td>
+			</tr>
+		</table>
+		
+	</form>
+</body>
+</html>
